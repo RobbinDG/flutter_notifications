@@ -1,0 +1,21 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.robbin.flutter_notifications">
+	<application>
+		<receiver android:name=".SnoozeBroadcast">
+			<intent-filter>
+				<action android:name="com.robbin.flutter_notifications.SNOOZE"/>
+			</intent-filter>
+		</receiver>
+		<receiver android:name=".CancelBroadcast">
+			<intent-filter>
+				<action android:name="com.robbin.flutter_notifications.CANCEL"/>
+			</intent-filter>
+		</receiver>
+		<receiver android:name=".ScheduleBroadcast">
+			<intent-filter>
+				<action android:name="com.robbin.flutter_notifications.SCHEDULE"/>
+			</intent-filter>
+		</receiver>
+	</application>
+
+</manifest>

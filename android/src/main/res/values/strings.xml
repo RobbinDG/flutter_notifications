@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="channel_name">flutter_notification_plugin_channel_name</string>
+	<string name="channel_description">flutter_notification_plugin_channel_description</string>
+	<string name="notification_broadcast_id">com.robbin.flutter_notifications.notification_broadcast_id</string>
+</resources>
